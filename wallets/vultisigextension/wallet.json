@@ -1,0 +1,38 @@
+{
+  "$schema": "../../wallet.schema.json",
+  "wallet_name": "vultisigextension",
+  "pretty_name": "Vultisig",
+  "connection_type": "browser_extension",
+  "website": "https://vultisig.com",
+  "git_repo": "https://github.com/vultisig/vultisig-windows",
+  "supported_chains": [
+    "cosmoshub",
+    "osmosis",
+    "dydx",
+    "terra2",
+    "terra",
+    "noble",
+    "akash",
+    "thorchain",
+    "mayachain"
+  ],
+  "platforms": [
+    {
+      "device": "desktop",
+      "type": "extension",
+      "platform": "chrome",
+      "install_link": "https://chromewebstore.google.com/detail/vultisig-seedless-crypto/ggafhcdaplkhmmnlbfjpnnkepdfjaelb"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/vultisigextension/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/vultisigextension/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#061B3A",
+        "circle": true
+      },
+      "layout": "logomark"
+    }
+  ]
+}
